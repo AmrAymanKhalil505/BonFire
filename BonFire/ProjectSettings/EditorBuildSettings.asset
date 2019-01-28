@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/BonFire/Scenes/MenuScene/Start.unity
+    guid: 227acaa08b5027c4b8ea1bc508a612a4
+  - enabled: 1
+    path: Assets/BonFire/Scenes/GameScene.unity
+    guid: 871afd4ca4d6a3d4e88f41cf5f0e11d1
+  m_configObjects: {}
