@@ -9,7 +9,7 @@ public class MainMenuMang : MonoBehaviour
 {
     public GameObject StartPanel;
     public GameObject OptionsPanel;
-    //public GameObject CreditsPanel;
+    public GameObject CreditsPanel;
     public GameObject HowToPlayPanel;
 
     public AudioMixer audioMixer;
@@ -32,10 +32,10 @@ public class MainMenuMang : MonoBehaviour
         StartPanel.SetActive(true);
         
     }
-    // public void creditsOnClick (){
-    //     clearPanels();
-    //     CreditsPanel.SetActive(true);
-    // }
+     public void creditsOnClick (){
+        clearPanels();
+         CreditsPanel.SetActive(true);
+     }
     public void howToPlayOnClick(){
          clearPanels();
             HowToPlayPanel.SetActive(true);
@@ -47,7 +47,7 @@ public class MainMenuMang : MonoBehaviour
     void clearPanels(){
         StartPanel.SetActive(false);
         OptionsPanel.SetActive(false);
-      //  CreditsPanel.SetActive(false);
+        CreditsPanel.SetActive(false);
         HowToPlayPanel.SetActive(false);
     }
 
