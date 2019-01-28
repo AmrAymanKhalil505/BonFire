@@ -893,7 +893,7 @@ PrefabInstance:
     - target: {fileID: 5298852616669568609, guid: 3a1c51467a5ece840bc780ef6356c7f6,
         type: 3}
       propertyPath: speed
-      value: 0.05
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 5298852616669568612, guid: 3a1c51467a5ece840bc780ef6356c7f6,
         type: 3}
@@ -1387,12 +1387,12 @@ PrefabInstance:
     - target: {fileID: 6664961201322829804, guid: 338bd8900f8779945adb1750bcbb20b1,
         type: 3}
       propertyPath: MinOffestSpwan
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6664961201322829804, guid: 338bd8900f8779945adb1750bcbb20b1,
         type: 3}
       propertyPath: MaxOffestSpwan
-      value: 34.46
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6664961201322829804, guid: 338bd8900f8779945adb1750bcbb20b1,
         type: 3}
